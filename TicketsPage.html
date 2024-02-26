@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona</title>
+    <link rel="stylesheet" href="MainWeb.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Barcelona-Logo.png" alt="FC Barcelona Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="MainWeb.html">Home</a></li>
+                <li><a href="NewsPage.html">News</a></li>
+                <li><a href="VideosPage.html">Videos</a></li>
+                <li><a href="MatchPage.html">Matches</a></li>
+                <li><a href="TicketsPage.html">Tickets</a></li>
+                <li><a href="ShopPage.html">Shop</a></li>
+            </ul>
+        </nav>
+        <div> </div>
+    </header>
+    <hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr /><hr />
+    <img class="fcbbackground" src="FCB1.png" />
+    <section>
+        <center>
+            <h2>Get Tickets</h2>
+            <form class="ggetticket">
+                <fieldset>
+                    <label for="fname"><h2>First name:</h2></label><br>
+                    <input type="text" id="fname"><br>
+                    <label for="lname"><h2>Last name:</h2></label><br>
+                    <input type="text" id="lname"><br><br>
+                    <label for="lname"><h2>Email:</h2></label><br>
+                    <input type="email" id="lname" name="email" value="@"><br><br>
+                    <label for="quantity"><h2>Select Tickets number:</h2></label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    <label for="lname">
+                        <h2>Prices</h2>
+                        <br><br>
+                        <input type="radio" name="prices" value="50$">
+                        50$
+                    </label><br><br>
+
+                    <label>
+                        <input type="radio" name="prices" value="100$">
+                        100$
+                    </label><br><br>
+
+                    <label>
+                        <input type="radio" name="prices" value="120$">
+                        120$
+                    </label><br><br>
+                    <label for="matchs"><h2>Choose a Match:</h2></label>
+                    <select id="matchs" name="matchs">
+                        <option value="match">Match1</option>
+                        <option value="match">Match2</option>
+                        <option value="match">Match3</option>
+                        <option value="match">Match4</option>
+                        <option value="match">Match5</option>
+                        <option value="match">Match6</option>
+                        <option value="match">Match7</option>
+                        <option value="match">Match8</option>
+                        <option value="match">Match9</option>
+                        <option value="match">Match10</option>
+                    </select><br><br>
+                    <label for="birthdate"><h2>Select your Ticket Date:</h2></label>
+                    <input type="date" id="birthdate" name="birthdate">
+                </fieldset>
+                <input class="getticket" type="submit" value="Submit" id="submitButton">
+            </form>
+        </center>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <p>Location of the Club:</p>
+            <p>123 Main Street, Barcelona</p>
+            <p>Email: info@fcbarcelona.com</p>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#none">Made by Amir&Eyal</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

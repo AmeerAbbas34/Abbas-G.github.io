@@ -1,0 +1,183 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+    color: #333;
+    cursor: pointer;
+    cursor: url('Barcelona-Logo.png'), auto;
+}
+
+.fcbbackground {
+    height: 400px;
+    width: 100%;
+}
+
+    .fcbbackground:hover {
+        color: mediumblue;
+        opacity: 0.8;
+    }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+            nav ul li a:hover {
+                color: #ffd700;
+            }
+
+.hero {
+    background-image: url('fc_barcelona_hero.jpg');
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+    .hero h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #b81c24;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+.latest-news {
+    background-color: #fff;
+    padding: 40px;
+}
+
+.news-article {
+    margin-bottom: 20px;
+}
+
+    .news-article h3 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .news-article p {
+        font-size: 16px;
+    }
+
+/* Footer section styling */
+footer {
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+}
+
+    .footer-nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+        .footer-nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+/* Matches section styling */
+.matches {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.match {
+    background-color: #fff; /* Match background color */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+    .match h2 {
+        color: #333; /* Heading color */
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .match p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .match:hover {
+        background-color: #f2f2f2; /* Hover background color */
+        cursor: pointer;
+    }
+
+        .match:hover h2 {
+            color: #b81c24; /* Heading color on hover */
+        }
+
+.getticket {
+    background-color: #b81c24;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .getticket:hover {
+        background-color: #8c1418;
+    }
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.product img {
+    width: 100px;
+    height: auto;
+}
